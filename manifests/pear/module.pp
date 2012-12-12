@@ -24,10 +24,10 @@ define php::pear::module (
   $service         = $php::service,
   $use_package     = 'yes',
   $preferred_state = 'stable',
-  $alldeps         = false,
+  $alldeps         = false
   ) {
 
-  include php::pear
+  include php
 
   case $use_package {
     yes: {
