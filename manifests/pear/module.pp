@@ -27,7 +27,7 @@ define php::pear::module (
   $alldeps         = false
   ) {
 
-  include php
+  include php::pear
 
   case $use_package {
     yes: {
